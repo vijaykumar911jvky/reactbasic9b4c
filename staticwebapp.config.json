@@ -20,6 +20,22 @@
         "name1": "value1",
         "name11": "value11"
       }
+    },
+    {
+      "route": "profile2",
+      "methods": [
+        "put"
+      ],
+      "rewrite": "12345",
+      "redirect": "new-url1",
+      "statusCode": 301,
+      "allowedRoles": [
+        "admin",
+        "authenticated1"
+      ],
+      "headers": {
+        "name2": "value2"
+      }
     }
   ]
 }
