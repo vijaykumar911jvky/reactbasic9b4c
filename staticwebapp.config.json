@@ -4,19 +4,21 @@
   },
   "routes": [
     {
-      "route": "profile",
+      "route": "profile1",
       "methods": [
-        "post"
+        "post",
+        "get"
       ],
-      "rewrite": "123",
+      "rewrite": "1234",
       "redirect": "new-url",
-      "statusCode": 200,
+      "statusCode": 300,
       "allowedRoles": [
-        "admin",
-        "authenticated"
+        "admin1",
+        "authenticated1"
       ],
       "headers": {
-        "name1": "value1"
+        "name1": "value1",
+        "name11": "value11"
       }
     }
   ]
